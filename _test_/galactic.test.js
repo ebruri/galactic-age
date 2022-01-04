@@ -23,4 +23,7 @@ describe('Galactic', () => {
   test('should correctly determine age in Jupiter', () => {
     expect(galactic.jupiterAge()).toEqual(3);
   }); 
+  test('should correctly determine how many years a user has left to live', () => {
+    expect(galactic.yearsToLive(72)).toEqual(60);
+  }); 
 });

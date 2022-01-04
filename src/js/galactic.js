@@ -11,7 +11,7 @@ export default class Galactic {
   mercuryAge() {
     return Math.ceil(this.age / 0.24);
   }
-   venusAge() {
+  venusAge() {
     return Math.ceil(this.age / 0.62);
   }
   jupiterAge() {
