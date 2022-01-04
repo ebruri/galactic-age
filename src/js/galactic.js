@@ -6,12 +6,12 @@ export default class Galactic {
     this.exercise = exercise;
   }
   marsAge() {
-    return Math.round(this.age / 1.88);
+    return Math.ceil(this.age / 1.88);
   }
   mercuryAge() {
-    return Math.round(this.age / 0.24);
+    return Math.ceil(this.age / 0.24);
   }
    venusAge() {
-    return Math.round(this.age / 0.62);
+    return Math.ceil(this.age / 0.62);
   }
 }  
