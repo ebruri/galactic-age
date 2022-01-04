@@ -6,7 +6,7 @@
 
 ## Github Pages Link
 
-[TITLE HERE Github Pages](https://ebruri.github.io/galactic-age/)
+[Galactic Age Calculator](https://ebruri.github.io/galactic-age/)
 
 ## Technologies Used
 
@@ -16,7 +16,12 @@
 
 ## Description
 
-
+A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. For instance, a solar year on Mercury lasts 88 days. Galactic Age Calculator takes an user's age and; 
+* Returns their age in Mercury years.
+* Returns their age in Venus years. 
+* Returns their age in Mars years.
+* Returns their age in Jupiter years.
+* Determines how many years a user has left to live on each planet…
 
 ## Setup/Installation Requirements
 
