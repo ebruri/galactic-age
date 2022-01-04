@@ -14,4 +14,7 @@ describe('Galactic', () => {
   test('should correctly determine age in Mars', () => {
     expect(galactic.marsAge()).toEqual(16);
   }); 
+  test('should correctly determine age in Mercury', () => {
+    expect(galactic.mercuryAge()).toEqual(125);
+  }); 
 });

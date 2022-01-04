@@ -8,4 +8,7 @@ export default class Galactic {
   marsAge() {
     return Math.round(this.age / 1.88);
   }
+  mercuryAge() {
+    return Math.round(this.age / 0.24);
+  }
 }  
