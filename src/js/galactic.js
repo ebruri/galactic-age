@@ -5,4 +5,7 @@ export default class Galactic {
     this.health = health;
     this.exercise = exercise;
   }
+  marsAge() {
+    return Math.round(this.age / 1.88);
+  }
 }  
