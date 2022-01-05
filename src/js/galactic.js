@@ -17,13 +17,13 @@ export default class Galactic {
     console.log(ages);
     let yearsLeft = [];
     for (let i = 0; i < average.length; i++) {
-        if (healthPoint >= 5) {
-          yearsLeft.push(Math.ceil(average[i]/4 + average[i] - ages[i]));
-        } else if (healthPoint === 3 || healthPoint === 4) {
-          yearsLeft.push(Math.ceil(average[i]/8 + average[i] - ages[i]));
-        } else {
-          yearsLeft.push(Math.ceil(average[i] - average[i]/10 - ages[i]));
-        }
+      if (healthPoint >= 5) {
+        yearsLeft.push(Math.ceil(average[i]/4 + average[i] - ages[i]));
+      } else if (healthPoint === 3 || healthPoint === 4) {
+        yearsLeft.push(Math.ceil(average[i]/8 + average[i] - ages[i]));
+      } else {
+        yearsLeft.push(Math.ceil(average[i] - average[i]/10 - ages[i]));
+      }
     } 
     return yearsLeft;
   }
