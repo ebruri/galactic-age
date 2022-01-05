@@ -18,7 +18,11 @@ describe('Galactic', () => {
     expect(galactic.yearsToLive()).toEqual([60, 33, 250, 98, 6]);
   });
   test('should correctly determine years left to live in planets Earth, Jupiter, Venus, Mercury, Mars', () => {
-    const yearsLeft = new Galactic(30,0,1,2)
-    expect(yearsLeft.yearsToLive()).toEqual([51, 28, 213, 83, 5]);
-  }); 
+    const galactic = new Galactic(30,0,1,2)
+    expect(galactic.yearsToLive()).toEqual([51, 28, 213, 83, 5]);
+  });
+  test('should correctly determine years left to live in planets Earth, Jupiter, Venus, Mercury, Mars', () => {
+    const galactic = new Galactic(30,0,1,0)
+    expect(galactic.yearsToLive()).toEqual([35, 20, 145, 57, 4]);
+  });
 });
