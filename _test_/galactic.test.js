@@ -12,6 +12,6 @@ describe('Galactic', () => {
     expect(galactic.exercise).toEqual(2);
   });
   test('should correctly determine ages in planets Earth, Jupiter, Venus, Mercury, Mars', () => {
-    expect(galactic.planetAges()).toEqual(30, 16, 125, 49, 3);
+    expect(galactic.planetAges()).toEqual([30, 16, 125, 49, 3]);
   }); 
 });
