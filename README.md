@@ -25,10 +25,24 @@ A solar year lasts 365 days on planet Earth. However, the length of a solar year
 
 ## Setup/Installation Requirements
 
-* Open Terminal
-* Change the current working directory to the location where you want the cloned directory.
-* Type $ git clone https://github.com/ebruri/galactic-age
-* Press enter to create your local clone.
+* Open the terminal on your local computer.
+
+* Navigate to the parent directory of your preference.
+
+* Clone this project using  $ git clone https://github.com/ebruri/galactic-age
+
+* Navigate to the top level of the directory with the command  $ cd galactic-age
+
+* Make sure you have installed [Node js](https://nodejs.org/en/)
+
+* Run command  $ npm install to install all dependencies.
+
+* Run the command  $ npm run build
+
+* Run the command  $ npm run test to check the test pass.
+
+* Run the command  $ npm run start to launch on a browser.
+
 
 ## Known Bugs
 
@@ -38,7 +52,7 @@ A solar year lasts 365 days on planet Earth. However, the length of a solar year
 ## Contact Me
 
 Let me know if you run into any issues or have questions, ideas or concerns:
-[ebruerenb@gmail.com]
+ebruerenb@gmail.com
 
 ## License
 
